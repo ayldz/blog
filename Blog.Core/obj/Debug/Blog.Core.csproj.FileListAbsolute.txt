@@ -1,0 +1,10 @@
+D:\Project\gitProject\Blog\Blog.Core\bin\Debug\Blog.Core.dll.config
+D:\Project\gitProject\Blog\Blog.Core\bin\Debug\Blog.Core.dll
+D:\Project\gitProject\Blog\Blog.Core\bin\Debug\Blog.Core.pdb
+D:\Project\gitProject\Blog\Blog.Core\bin\Debug\EntityFramework.dll
+D:\Project\gitProject\Blog\Blog.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\gitProject\Blog\Blog.Core\bin\Debug\EntityFramework.xml
+D:\Project\gitProject\Blog\Blog.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\gitProject\Blog\Blog.Core\obj\Debug\Blog.Core.csprojResolveAssemblyReference.cache
+D:\Project\gitProject\Blog\Blog.Core\obj\Debug\Blog.Core.dll
+D:\Project\gitProject\Blog\Blog.Core\obj\Debug\Blog.Core.pdb

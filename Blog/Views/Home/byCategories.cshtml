@@ -1,0 +1,22 @@
+﻿@model List<Blog.Core.Models.Post>
+
+@{
+    ViewBag.Title = "byCategories";
+    Layout = "~/Views/_LayoutPage.cshtml";
+}
+
+@foreach (var item in Model)
+{
+    <h4><small>RECENT POSTS</small></h4>
+    <hr>
+    <h2>@item.Title</h2>
+    <h5><span class="glyphicon glyphicon-time"></span> Post by @item.Published, @item.PostedOn.</h5>
+    <h5>
+        @foreach (var _tag in item.Tag)
+    {
+        <span class="label label-primary">@_tag</span>
+        }
+    </h5><br>
+    <p>@item.ShortDescription</p>
+    <br><br>
+}

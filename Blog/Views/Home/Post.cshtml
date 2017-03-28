@@ -1,0 +1,21 @@
+﻿@model Blog.Core.Models.Post
+
+@{
+    ViewBag.Title = Model.Title;
+    Layout = "~/Views/_LayoutPage.cshtml";
+}
+
+
+    <h4><small>SELECETED POSTS</small></h4>
+    <hr>
+    <h2>@Model.Title</h2>
+    <h5><span class="glyphicon glyphicon-time"></span> Post by @Model.Published, @Model.PostedOn.</h5>
+    <h5>
+        @foreach (var _tag in Model.Tag)
+        {
+            <span class="label label-primary">@_tag</span>
+        }
+    </h5><br>
+    <p>@Model.Description</p>
+    <br><br>
+
